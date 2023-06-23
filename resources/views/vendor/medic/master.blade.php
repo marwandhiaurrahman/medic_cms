@@ -1,6 +1,6 @@
 @include('vendor.medic.partials.header')
 
-@include('vendor.medic.partials.navigation')
+@include('vendor.medic.partials.navigation', {"home": "active"})
 
 @@include('blocks/hero-slider.htm')
 

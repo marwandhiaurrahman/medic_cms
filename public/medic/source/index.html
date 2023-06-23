@@ -1,6 +1,6 @@
-@include('vendor.medic.partials.header')
+@@include('header.htm')
 
-@include('vendor.medic.partials.navigation')
+@@include('blocks/navigation.htm', {"home": "active"})
 
 @@include('blocks/hero-slider.htm')
 
@@ -26,12 +26,12 @@
       <div class="col-lg-6">
         @@include('blocks/contact-area.htm')
       </div>
-    </div>
+    </div>                    
   </div>
 </section>
 <!-- End Contact Section -->
 
-@include('vendor.medic.partials.footer_block')
+@@include('blocks/footer.htm')
 
-@include('vendor.medic.partials.footer')
+@@include('footer.htm')
 
