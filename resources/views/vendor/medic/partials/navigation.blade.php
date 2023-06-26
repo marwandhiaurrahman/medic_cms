@@ -50,7 +50,7 @@
         <div class="col-xl-4 col-lg-3">
           <div class="logo">
             <a href="index.html">
-              <img loading="lazy" class="img-fluid" src="images/logo.png" alt="logo">
+              <img loading="lazy" class="img-fluid" src="{{ asset('medic/source/images/logo.png') }}" alt="logo">
             </a>
           </div>
         </div>
@@ -132,6 +132,9 @@
           </li>
           <li class="nav-item @@contact">
             <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('login') }}">Login</a>
           </li>
         </ul>
       </div>

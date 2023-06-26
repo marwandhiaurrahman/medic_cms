@@ -2,7 +2,7 @@
 
 @include('vendor.medic.partials.navigation', {"home": "active"})
 
-@@include('blocks/hero-slider.htm')
+@include('vendor.medic.partials.hero_slider')
 
 @@include('blocks/call-to-action.htm')
 
